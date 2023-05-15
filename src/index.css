@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: all;
+    src: url(./assets/Kbbubblegum-P27B.ttf);
+}
+@font-face {
+    font-family: culture;
+    src: url(./assets/AlphonseMucha.ttf);
+}
+body{
+    font-family: all;
+    background: url('./assets/5578523.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.vertical-rl {
+    writing-mode:vertical-lr;
+    transform: rotate(180deg);
+    text-orientation: mixed;
+  }
+.btn{
+    padding: 16px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    background: #478807 !important;
+    border-radius: 30px !important;
+    text-transform: initial !important;
+    color: white !important;
+}
+.btn:hover{
+    background:  #0B6623 !important;
+    transition: all ease;
+}
+.bg-lawngreen{
+    background: #478807;
+}
+
+.culture{
+    font-family: culture !important;
+}
