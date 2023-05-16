@@ -33,17 +33,11 @@ const Banner = () => {
                 </IconButton>
               </div>
             </Link>
-            <Link target='_blank' to='/'>
-              <div className='border-solid border-2 border-black  h-[60px] w-[60px] rounded-full flex items-center justify-center'>
-                <IconButton>
-                  <img src={discord} alt="" />
-                </IconButton>
-              </div>
-            </Link>
+            
           </div>
         </div>
         <div className='flex flex-col items-center justify-center'>
-          <h1 className='lg:text-5xl text-4xl font-semibold'>" Oh $HEET,<br /> BUY ME! "</h1>
+          <h1 className='lg:text-5xl text-4xl font-semibold'>" Oh $HEET,<br /> Gas fees are down! "</h1>
           <div   className='text-white contract-btn border p-2 mt-4 rounded-full bg-lawngreen'>
             <p className='text-xs lg:text-lg truncate lg:w-[100%] flex items-center justify-center gap-2 w-[250px]' style={{ fontSize : '16px' }}> <p className='lg:block hidden text-sm'>CONTRACT ADDRESS : </p> 0xb656fe66E9360ce1e1c2Ee84006a37B95c95B8b0</p>
           </div >
