@@ -10,6 +10,10 @@
     font-family: culture;
     src: url(./assets/AlphonseMucha.ttf);
 }
+:root{
+    --primary-color : #964b00;
+    --hover-primary-color : #482503;
+}
 body{
     font-family: all;
     background: url('./assets/5578523.jpg');
@@ -27,19 +31,23 @@ body{
     display: flex !important;
     align-items: center !important;
     justify-content: space-between !important;
-    background: #478807 !important;
+    background: var(--primary-color) !important;
     border-radius: 30px !important;
     text-transform: initial !important;
     color: white !important;
 }
 .btn:hover{
-    background:  #0B6623 !important;
+    background: var(--hover-primary-color)  !important;
     transition: all ease;
 }
 .bg-lawngreen{
-    background: #478807;
+    background: var(--primary-color);
 }
 
 .culture{
     font-family: culture !important;
+}
+
+.logo:hover{
+    color: var(--primary-color);
 }
